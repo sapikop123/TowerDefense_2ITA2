@@ -446,35 +446,6 @@ MonoBehaviour:
   m_ShadowIntensity: 0.75
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
-  m_Vertices:
-  - position: {x: 0.9985302, y: 0.9985302, z: 0}
-    color: {r: 0.70710677, g: 0.70710677, b: 0, a: 0}
-    uv: {x: 0, y: 0}
-  - position: {x: 0.9985302, y: 0.9985302, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0, y: 0}
-  - position: {x: -0.9985302, y: 0.9985302, z: 0}
-    color: {r: -0.70710677, g: 0.70710677, b: 0, a: 0}
-    uv: {x: 0, y: 0}
-  - position: {x: -0.9985302, y: 0.9985302, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0, y: 0}
-  - position: {x: -0.99853003, y: -0.9985304, z: 0}
-    color: {r: -0.70710665, g: -0.7071069, b: 0, a: 0}
-    uv: {x: 0, y: 0}
-  - position: {x: -0.99853003, y: -0.9985304, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0, y: 0}
-  - position: {x: 0.99853003, y: -0.9985304, z: 0}
-    color: {r: 0.70710665, g: -0.7071069, b: 0, a: 0}
-    uv: {x: 0, y: 0}
-  - position: {x: 0.99853003, y: -0.9985304, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0, y: 0}
-  - position: {x: 0, y: 0, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0, y: 0}
-  m_Triangles: 030001000800020000000100030002000100050003000800040002000300050004000300070005000800060004000500070006000500010007000800000006000700010000000700
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
@@ -552,10 +523,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
+  - {fileID: 5617428305632510508, guid: c955c6051d20c5a41809d74c05f95844, type: 3}
   - {fileID: 364075398049746521, guid: c02046c0edd46b54395ff8d1baddf255, type: 3}
   - {fileID: 8837430315113622628, guid: 7d4cf8f8e16b2ec409c804bf57317ecf, type: 3}
-  - {fileID: 5617428305632510508, guid: c955c6051d20c5a41809d74c05f95844, type: 3}
-  speedInterval: 0.5
+  - {fileID: 117150395161187363, guid: 3b9cd6b454150954889d8a3e8683c590, type: 3}
+  - {fileID: 117150395161187363, guid: 71752e303f5bf124eb0cfd82e0eb624d, type: 3}
+  bossPrefab: {fileID: 117150395161187363, guid: f40896add488d874c87ee5cd3646361b, type: 3}
+  timeBetweenWaves: 10
+  timeBetweenEnemies: 0.5
 --- !u!1 &836451811
 GameObject:
   m_ObjectHideFlags: 0
